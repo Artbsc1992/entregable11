@@ -1,0 +1,28 @@
+{
+	"name": "clase04",
+	"version": "1.0.0",
+	"description": "Desafío entregable Servidor con Express",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon src/app.js"
+	},
+	"keywords": [
+		"node",
+		"express"
+	],
+	"author": "Esteban Zarate",
+	"license": "ISC",
+	"dependencies": {
+		"bcrypt": "^5.1.0",
+		"connect-mongo": "^5.0.0",
+		"cookie-parser": "^1.4.6",
+		"dotenv": "^16.0.3",
+		"express-routemap": "^1.6.0",
+		"express": "^4.18.2",
+		"express-handlebars": "^6.0.7",
+		"express-session": "^1.17.3",
+		"mongoose": "^7.0.0",
+		"mongoose-paginate-v2": "^1.7.1",
+		"socket.io": "^4.6.0"
+	}
+}
